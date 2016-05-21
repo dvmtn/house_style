@@ -10,3 +10,6 @@ NOW STARING
 
 ### Rubocop
 File: [rubocop.yml](rubocop.yml)
+
+### CSScomb
+File: [csscomb.json](csscomb.json)

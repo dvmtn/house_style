@@ -13,3 +13,7 @@ File: [rubocop.yml](rubocop.yml)
 
 ### CSScomb
 File: [csscomb.json](csscomb.json)
+
+### reset.css
+A basic CSS reset to make CSS sane
+File: [reset.css](reset.css)

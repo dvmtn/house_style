@@ -64,5 +64,7 @@ Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
 
 Metrics/LineLength:
+  Exclude:
+    - 'spec/**/*'
   Max: 140
   AllowURI: true

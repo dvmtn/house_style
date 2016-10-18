@@ -33,9 +33,12 @@ Style/MethodDefParentheses:
 Style/Encoding:
   Enabled: false
 
+Style/SingleLineBlockParams:
+  Enabled: false
+
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
-    '%': ()
+    '%': '""'
     '%i': '[]'
     '%q': '[]'
     '%Q': '[]'
@@ -62,13 +65,6 @@ Style/EmptyLinesAroundClassBody:
 
 Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
-
-Style/SingleLineBlockParams:
-  Methods:
-    - reduce:
-        - acc
-    - inject:
-        - acc
 
 Metrics/LineLength:
   Exclude:

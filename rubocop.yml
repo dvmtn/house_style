@@ -12,9 +12,6 @@ AllCops:
     - 'log/**/*'
     - 'node_modules/**/*'
 
-Rails:
-  Enabled: true
-
 Style/AlignHash:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table

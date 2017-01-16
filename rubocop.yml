@@ -72,3 +72,7 @@ Metrics/LineLength:
     - 'spec/**/*'
   Max: 140
   AllowURI: true
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'

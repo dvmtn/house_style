@@ -79,7 +79,7 @@ Style/VariableNumber:
   EnforcedStyle: snake_case
 
 Style/VariableName:
-  Enabled:true
+  Enabled: true
 
 
 #############################################
@@ -95,3 +95,14 @@ Metrics/LineLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*_spec.rb'
+
+
+#############################################
+# Security
+#
+
+Security/Eval:
+  Enabled: true
+
+Security/MarshalLoad:
+  Enabled: true

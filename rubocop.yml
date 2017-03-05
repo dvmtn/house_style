@@ -71,6 +71,8 @@ Style/EmptyLinesAroundClassBody:
 Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
 
+Style/SpaceBeforeBlockBraces:
+  EnforcedStyle: no_space
 
 #############################################
 # Metrics

@@ -5,8 +5,8 @@ A repository for collecting opinionated configs for the [Developer Mountain](htt
 
 _Disclaimer:_ Our opinions will change and so will this repo. Probably.
 
-NOW STARRING
------------
+★★★ NOW STARRING ★★★
+--------------------
 
 ### Rubocop
 File: [rubocop.yml](rubocop.yml)

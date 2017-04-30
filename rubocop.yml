@@ -73,7 +73,7 @@ Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/SpaceBeforeBlockBraces:
-  EnforcedStyle: no_space
+  Enabled: false
 
 Style/VariableNumber:
   EnforcedStyle: snake_case

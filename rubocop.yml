@@ -15,14 +15,24 @@ AllCops:
 
 
 #############################################
-# Style
+# Layout
 #
 
-Style/AlignHash:
+Layout/AlignHash:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
   EnforcedLastArgumentHashStyle: ignore_implicit
   SupportedLastArgumentHashStyles: ignore_implicit
+
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: false
+
+#############################################
+# Style
+#
 
 Style/DefWithParentheses:
   Enabled: false
@@ -66,21 +76,14 @@ Style/PredicateName:
 Style/SignalException:
   EnforcedStyle: only_raise
 
-Style/EmptyLinesAroundClassBody:
-  EnforcedStyle: empty_lines
-
 Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: comma
-
-Style/SpaceBeforeBlockBraces:
-  Enabled: false
 
 Style/VariableNumber:
   EnforcedStyle: snake_case
 
 Style/VariableName:
   Enabled: true
-
 
 #############################################
 # Metrics
@@ -95,7 +98,6 @@ Metrics/LineLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*_spec.rb'
-
 
 #############################################
 # Security

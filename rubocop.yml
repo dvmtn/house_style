@@ -85,6 +85,11 @@ Style/VariableNumber:
 Style/VariableName:
   Enabled: true
 
+Style/FileName:
+  Exclude:
+    - 'Gemfile'
+    - 'Guardfile'
+
 #############################################
 # Metrics
 #

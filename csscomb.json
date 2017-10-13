@@ -31,6 +31,9 @@
   ],
   "sort-order": [
     [
+      "-webkit-box-sizing",
+      "-moz-box-sizing",
+      "box-sizing",
       "display",
       "position",
       "top",
@@ -38,11 +41,6 @@
       "bottom",
       "left",
       "z-index"
-    ],
-    [
-      "-webkit-box-sizing",
-      "-moz-box-sizing",
-      "box-sizing",
       "width",
       "min-width",
       "max-width",
@@ -59,8 +57,6 @@
       "padding-right",
       "padding-bottom",
       "padding-left"
-    ],
-    [
       "visibility",
       "float",
       "clear",
@@ -85,8 +81,6 @@
       "list-style-position",
       "list-style-type",
       "list-style-image"
-    ],
-    [
       "font",
       "font-url",
       "font-family",
@@ -102,8 +96,6 @@
       "font-emphasize-style",
       "font-smooth",
       "line-height"
-    ],
-    [
       "content",
       "quotes",
       "counter-reset",
@@ -236,8 +228,6 @@
       "-moz-hyphens",
       "hyphens",
       "pointer-events"
-    ],
-    [
       "opacity",
       "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
         "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",

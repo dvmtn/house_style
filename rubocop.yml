@@ -97,6 +97,10 @@ Naming/FileName:
     - 'Gemfile'
     - 'Guardfile'
 
+Lint/AssignmentInCondition:
+  Enabled: true
+  AllowSafeAssignment: false
+
 #############################################
 # Metrics
 #
